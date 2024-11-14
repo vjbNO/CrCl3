@@ -1,0 +1,89 @@
+01-11-2023 [13:18:43] Logfile opened
+01-11-2023 [13:18:43] Executable : vampire-parallel
+01-11-2023 [13:18:43] Host name  : idun-login2:
+01-11-2023 [13:18:43] Directory  : /cluster/home/verenajb/CrCl/RealParams_25_10_23/TorqueEx/MinusStrain/NegTorque_0p01
+01-11-2023 [13:18:43] Process ID : 1590953
+01-11-2023 [13:18:43] Version    : 6.0.0
+01-11-2023 [13:18:43] Githash    : 86f472e8fc37028e39088b08405adc8bfd241682
+01-11-2023 [13:18:43] Opening main input file "input".
+01-11-2023 [13:18:43] Parsing system parameters from main input file.
+01-11-2023 [13:18:43] Opening material file "MultiMat_OneSide.mat".
+01-11-2023 [13:18:43] Parsing material file for parameters.
+01-11-2023 [13:18:43] Reading in unit cell data from disk...
+01-11-2023 [13:18:43] Reading data completed. Processing unit cell data...
+01-11-2023 [13:18:43] 	Processing data for 8 unit cell atoms...
+01-11-2023 [13:18:43] 	Processing unit cell atoms completed
+01-11-2023 [13:18:43] 	Processing data from 112 interactions...
+01-11-2023 [13:18:43] 	Processing unit cell interactions completed
+01-11-2023 [13:18:43] 	Verifying unit cell exchange interactions...
+01-11-2023 [13:18:43] Verifying unit cell exchange interactions completed
+01-11-2023 [13:18:43] 	Number of atoms read-in: 8
+01-11-2023 [13:18:43] 	Number of bilinear interactions read-in: 112
+01-11-2023 [13:18:43] 	Number of biquadratic interactions read-in: 0
+01-11-2023 [13:18:43] 	Exchange type: 
+01-11-2023 [13:18:43] 	Calculated interaction range: 1 Unit Cells
+01-11-2023 [13:18:43] System decomposed into 10 x 1 x 1 processors for parallel execution
+01-11-2023 [13:18:43] Cutting materials within defined geometry.
+01-11-2023 [13:18:43] Calculating alloy properties of system
+01-11-2023 [13:18:43] Determining atomic composition:
+01-11-2023 [13:18:43] Material 1 LeftEndHighAlpha makes up 5.01193 % of all atoms ( 16296 atoms )
+01-11-2023 [13:18:43] Material 2 leftEndMediumAlpha makes up 5.01193 % of all atoms ( 16296 atoms )
+01-11-2023 [13:18:43] Material 3 leftPropagationLowAlpha makes up 5.01193 % of all atoms ( 16296 atoms )
+01-11-2023 [13:18:43] Material 4 centerExLowAlpha makes up 9.96451 % of all atoms ( 32399 atoms )
+01-11-2023 [13:18:43] Material 5 rightPropagationLowAlpha makes up 65.0358 % of all atoms ( 211460 atoms )
+01-11-2023 [13:18:43] Material 6 rightEndMediumAlpha makes up 5.01193 % of all atoms ( 16296 atoms )
+01-11-2023 [13:18:43] Material 7 rightEndHighAlpha makes up 4.95196 % of all atoms ( 16101 atoms )
+01-11-2023 [13:18:43] Copying halo atoms to other processors...
+01-11-2023 [13:18:43]    Determining CPU ranges in x,y,z
+01-11-2023 [13:18:43]      Completed. Time taken: 0.000661744 s
+01-11-2023 [13:18:43]    Determining atoms needed by remote CPUs
+01-11-2023 [13:18:43]      Completed. Time taken: 0.0119364 s
+01-11-2023 [13:18:43]    Sharing number of atoms to be sent/received from each CPU
+01-11-2023 [13:18:43]      Completed. Time taken: 0.000477956 s
+01-11-2023 [13:18:43]    Sending boundary atom data to all relevant CPUs
+01-11-2023 [13:18:43]      Completed. Time taken: 0.000826305 s
+01-11-2023 [13:18:43] 	done! Total time taken: 0.0141375
+01-11-2023 [13:18:43] Memory required for neighbourlist calculation (each cpu):0 MB
+01-11-2023 [13:18:43] Memory required for neighbourlist calculation (all cpus):0 MB
+01-11-2023 [13:18:43] Allocating memory for supercell array in neighbourlist calculation
+01-11-2023 [13:18:43] 	Allocating memory done
+01-11-2023 [13:18:43] Populating supercell array for neighbourlist calculation...
+01-11-2023 [13:18:43] 	Populating supercell array completed
+01-11-2023 [13:18:43] Memory required for neighbour list (each cpu):0 MB
+01-11-2023 [13:18:43] Memory required for neighbour list (all cpus):0 MB
+01-11-2023 [13:18:43] Generating neighbour list...
+01-11-2023 [13:18:43] 	Neighbour list calculation complete
+01-11-2023 [13:18:43] Deallocating supercell array for neighbour list calculation
+01-11-2023 [13:18:43] 	Supercell array deallocated
+01-11-2023 [13:18:43] Number of core  atoms: 32204
+01-11-2023 [13:18:43] Number of local atoms: 32592
+01-11-2023 [13:18:43] Number of total atoms: 32980
+01-11-2023 [13:18:43] Initialising MPI communications...
+01-11-2023 [13:18:43] 	done! Total time taken: 0.0022493
+01-11-2023 [13:18:43] Copying system data to optimised data structures.
+01-11-2023 [13:18:43] Number of atoms generated on rank 0: 32592
+01-11-2023 [13:18:43] Memory required for copying to performance array on rank 0: 5.01296 MB RAM
+01-11-2023 [13:18:43] Identifying surface atoms using global threshold value of 0
+01-11-2023 [13:18:43] 0 surface atoms found.
+01-11-2023 [13:18:43] Memory required for creation of 1D neighbour list on rank 0: 0.52768 MB RAM
+01-11-2023 [13:18:43] Initialising data structures for exchange calculation.
+01-11-2023 [13:18:43] Unrolled exchange template requires 32.5809MB RAM
+01-11-2023 [13:18:43] Total number of atoms (all CPUs): 325144
+01-11-2023 [13:18:43] Initializing vampire modules
+01-11-2023 [13:18:43] Macrocell size = 10,10,10 Angstroms
+01-11-2023 [13:18:43] Macrocells in x,y,z: 501	51	4
+01-11-2023 [13:18:43] Total number of macrocells: 102204
+01-11-2023 [13:18:43] Memory required for macrocell arrays: 8.17632 MB
+01-11-2023 [13:18:43] Number of local macrocells on rank 0: 2500
+01-11-2023 [13:18:43] Initializing spin pumping module
+01-11-2023 [13:18:43] Initializing structures for atomistic calculation of spin pumping
+01-11-2023 [13:18:43] Initializing structures for cell-resolved calculation of spin pumping
+01-11-2023 [13:18:43] Outputting atomistic coordinates for spin pumping to file atoms-spin-pumping-coords.data
+01-11-2023 [13:18:44] Initialising data structures for anisotropy calculation for 100 materials
+01-11-2023 [13:18:44] Flag:checkpoint_loaded_flag = 1
+01-11-2023 [13:18:44] Checkpoint file loaded at sim::time 1400000.
+01-11-2023 [13:18:44] Initialising statistics module
+01-11-2023 [13:18:44] Time for initialisation: 0.866698
+01-11-2023 [13:18:44] Starting Simulation with Program Time-Series...
+01-11-2023 [13:18:44] Initialising configuration output... done!
+01-11-2023 [13:18:44] Outputting spin pumping data to file atoms-spin-pumping-00000000.data

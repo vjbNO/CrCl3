@@ -1,0 +1,51 @@
+#------------------------------------------
+# Sample vampire input file to perform
+# benchmark calculation for v4.0
+#
+#------------------------------------------
+
+#------------------------------------------
+# Creation attributes:
+#------------------------------------------
+
+dimensions:system-size-x = 500 !nm
+dimensions:system-size-y = 50 !nm
+dimensions:system-size-z = 2 !nm
+
+create:select-material-by-geometry
+#------------------------------------------
+# Material Files:
+#------------------------------------------
+material:unit-cell-file=ZeroStrain_Normalized_only1stAnd2ndNN.ucf
+material:file = MultiMat_OneSide.mat
+
+#------------------------------------------
+# Simulation attributes:
+#------------------------------------------
+#sim:equilibration-temperature= 1.0
+#sim:equilibration-time-steps=1000000 
+#sim:temperature= 1.0
+sim:time-steps-increment=1000 # 1ps
+sim:total-time-steps=1000000 
+sim:time-step=1 !fs
+
+sim:spin-transfer-torque-polarization-unit-vector=-1,0,0
+#------------------------------------------
+# Program and integrator details
+#------------------------------------------
+sim:program= time-series
+sim:integrator= llg-heun
+
+#------------------------------------------
+# data output
+#------------------------------------------
+output:real-time
+output:magnetisation
+screen:time-steps
+screen:magnetisation-length
+
+spin-pumping:atomistic-spin-pumping
+spin-pumping:update-rate = 10000 # NOT in units of time-step-increment! 
+
+config:atoms
+config:atoms-output-rate = 500 # in units of time-step increment

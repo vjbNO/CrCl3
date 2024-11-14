@@ -1,0 +1,195 @@
+02-11-2023 [21:57:55] Logfile opened
+02-11-2023 [21:57:55] Executable : vampire-parallel
+02-11-2023 [21:57:55] Host name  : idun-02-34:
+02-11-2023 [21:57:55] Directory  : /cluster/home/verenajb/CrCl/RealParams_25_10_23/TorqueEx/MinusStrain/PosTorque_0p2
+02-11-2023 [21:57:55] Process ID : 1090194
+02-11-2023 [21:57:55] Version    : 6.0.0
+02-11-2023 [21:57:55] Githash    : 86f472e8fc37028e39088b08405adc8bfd241682
+02-11-2023 [21:57:55] Opening main input file "input".
+02-11-2023 [21:57:55] Parsing system parameters from main input file.
+02-11-2023 [21:57:55] Opening material file "MultiMat_OneSide.mat".
+02-11-2023 [21:57:55] Parsing material file for parameters.
+02-11-2023 [21:57:55] Reading in unit cell data from disk...
+02-11-2023 [21:57:55] Reading data completed. Processing unit cell data...
+02-11-2023 [21:57:55] 	Processing data for 8 unit cell atoms...
+02-11-2023 [21:57:55] 	Processing unit cell atoms completed
+02-11-2023 [21:57:55] 	Processing data from 112 interactions...
+02-11-2023 [21:57:55] 	Processing unit cell interactions completed
+02-11-2023 [21:57:55] 	Verifying unit cell exchange interactions...
+02-11-2023 [21:57:55] Verifying unit cell exchange interactions completed
+02-11-2023 [21:57:55] 	Number of atoms read-in: 8
+02-11-2023 [21:57:55] 	Number of bilinear interactions read-in: 112
+02-11-2023 [21:57:55] 	Number of biquadratic interactions read-in: 0
+02-11-2023 [21:57:55] 	Exchange type: 
+02-11-2023 [21:57:55] 	Calculated interaction range: 1 Unit Cells
+02-11-2023 [21:57:55] System decomposed into 10 x 1 x 1 processors for parallel execution
+02-11-2023 [21:57:55] Cutting materials within defined geometry.
+02-11-2023 [21:57:55] Calculating alloy properties of system
+02-11-2023 [21:57:55] Determining atomic composition:
+02-11-2023 [21:57:55] Material 1 LeftEndHighAlpha makes up 5.01193 % of all atoms ( 16296 atoms )
+02-11-2023 [21:57:55] Material 2 leftEndMediumAlpha makes up 5.01193 % of all atoms ( 16296 atoms )
+02-11-2023 [21:57:55] Material 3 leftPropagationLowAlpha makes up 5.01193 % of all atoms ( 16296 atoms )
+02-11-2023 [21:57:55] Material 4 centerExLowAlpha makes up 9.96451 % of all atoms ( 32399 atoms )
+02-11-2023 [21:57:55] Material 5 rightPropagationLowAlpha makes up 65.0358 % of all atoms ( 211460 atoms )
+02-11-2023 [21:57:55] Material 6 rightEndMediumAlpha makes up 5.01193 % of all atoms ( 16296 atoms )
+02-11-2023 [21:57:55] Material 7 rightEndHighAlpha makes up 4.95196 % of all atoms ( 16101 atoms )
+02-11-2023 [21:57:55] Copying halo atoms to other processors...
+02-11-2023 [21:57:55]    Determining CPU ranges in x,y,z
+02-11-2023 [21:57:55]      Completed. Time taken: 0.000239648 s
+02-11-2023 [21:57:55]    Determining atoms needed by remote CPUs
+02-11-2023 [21:57:55]      Completed. Time taken: 0.00642828 s
+02-11-2023 [21:57:55]    Sharing number of atoms to be sent/received from each CPU
+02-11-2023 [21:57:55]      Completed. Time taken: 0.000258966 s
+02-11-2023 [21:57:55]    Sending boundary atom data to all relevant CPUs
+02-11-2023 [21:57:55]      Completed. Time taken: 0.000483207 s
+02-11-2023 [21:57:55] 	done! Total time taken: 0.00749131
+02-11-2023 [21:57:55] Memory required for neighbourlist calculation (each cpu):0 MB
+02-11-2023 [21:57:55] Memory required for neighbourlist calculation (all cpus):0 MB
+02-11-2023 [21:57:55] Allocating memory for supercell array in neighbourlist calculation
+02-11-2023 [21:57:55] 	Allocating memory done
+02-11-2023 [21:57:55] Populating supercell array for neighbourlist calculation...
+02-11-2023 [21:57:55] 	Populating supercell array completed
+02-11-2023 [21:57:55] Memory required for neighbour list (each cpu):0 MB
+02-11-2023 [21:57:55] Memory required for neighbour list (all cpus):0 MB
+02-11-2023 [21:57:55] Generating neighbour list...
+02-11-2023 [21:57:55] 	Neighbour list calculation complete
+02-11-2023 [21:57:55] Deallocating supercell array for neighbour list calculation
+02-11-2023 [21:57:55] 	Supercell array deallocated
+02-11-2023 [21:57:55] Number of core  atoms: 32204
+02-11-2023 [21:57:55] Number of local atoms: 32592
+02-11-2023 [21:57:55] Number of total atoms: 32980
+02-11-2023 [21:57:55] Initialising MPI communications...
+02-11-2023 [21:57:55] 	done! Total time taken: 0.00094247
+02-11-2023 [21:57:55] Copying system data to optimised data structures.
+02-11-2023 [21:57:55] Number of atoms generated on rank 0: 32592
+02-11-2023 [21:57:55] Memory required for copying to performance array on rank 0: 5.01296 MB RAM
+02-11-2023 [21:57:55] Identifying surface atoms using global threshold value of 0
+02-11-2023 [21:57:55] 0 surface atoms found.
+02-11-2023 [21:57:55] Memory required for creation of 1D neighbour list on rank 0: 0.52768 MB RAM
+02-11-2023 [21:57:55] Initialising data structures for exchange calculation.
+02-11-2023 [21:57:55] Unrolled exchange template requires 32.5809MB RAM
+02-11-2023 [21:57:55] Total number of atoms (all CPUs): 325144
+02-11-2023 [21:57:55] Initializing vampire modules
+02-11-2023 [21:57:55] Macrocell size = 10,10,10 Angstroms
+02-11-2023 [21:57:55] Macrocells in x,y,z: 501	51	4
+02-11-2023 [21:57:55] Total number of macrocells: 102204
+02-11-2023 [21:57:55] Memory required for macrocell arrays: 8.17632 MB
+02-11-2023 [21:57:55] Number of local macrocells on rank 0: 2500
+02-11-2023 [21:57:55] Initializing spin pumping module
+02-11-2023 [21:57:55] Initializing structures for atomistic calculation of spin pumping
+02-11-2023 [21:57:55] Initializing structures for cell-resolved calculation of spin pumping
+02-11-2023 [21:57:55] Outputting atomistic coordinates for spin pumping to file atoms-spin-pumping-coords.data
+02-11-2023 [21:57:55] Initialising data structures for anisotropy calculation for 100 materials
+02-11-2023 [21:57:55] Flag:checkpoint_loaded_flag = 1
+02-11-2023 [21:57:55] Checkpoint file loaded at sim::time 1400000.
+02-11-2023 [21:57:55] Initialising statistics module
+02-11-2023 [21:57:55] Time for initialisation: 0.624521
+02-11-2023 [21:57:55] Starting Simulation with Program Time-Series...
+02-11-2023 [21:57:55] Initialising configuration output... done!
+02-11-2023 [21:57:55] Outputting spin pumping data to file atoms-spin-pumping-00000000.data
+02-11-2023 [21:59:56] Outputting spin pumping data to file atoms-spin-pumping-00000001.data
+02-11-2023 [22:01:57] Outputting spin pumping data to file atoms-spin-pumping-00000002.data
+02-11-2023 [22:03:57] Outputting spin pumping data to file atoms-spin-pumping-00000003.data
+02-11-2023 [22:05:58] Outputting spin pumping data to file atoms-spin-pumping-00000004.data
+02-11-2023 [22:07:58] Outputting spin pumping data to file atoms-spin-pumping-00000005.data
+02-11-2023 [22:09:59] Outputting spin pumping data to file atoms-spin-pumping-00000006.data
+02-11-2023 [22:12:00] Outputting spin pumping data to file atoms-spin-pumping-00000007.data
+02-11-2023 [22:14:01] Outputting spin pumping data to file atoms-spin-pumping-00000008.data
+02-11-2023 [22:16:01] Outputting spin pumping data to file atoms-spin-pumping-00000009.data
+02-11-2023 [22:17:14] Total coordinate data filesize: 15.6069 MB
+02-11-2023 [22:17:14] Total spin data filesize (per snapshot): 7.80346 MB
+02-11-2023 [22:17:14] Outputting atomic coordinate file to disk 0.0491388 GB/s in 0.317609 s
+02-11-2023 [22:17:14] Outputting configuration file 00000029 to disk 0.0301587 GB/s in 0.258747 s [ 0.261331 s]
+02-11-2023 [22:18:03] Outputting spin pumping data to file atoms-spin-pumping-00000010.data
+02-11-2023 [22:20:04] Outputting spin pumping data to file atoms-spin-pumping-00000011.data
+02-11-2023 [22:22:04] Outputting spin pumping data to file atoms-spin-pumping-00000012.data
+02-11-2023 [22:24:05] Outputting spin pumping data to file atoms-spin-pumping-00000013.data
+02-11-2023 [22:26:06] Outputting spin pumping data to file atoms-spin-pumping-00000014.data
+02-11-2023 [22:28:06] Outputting spin pumping data to file atoms-spin-pumping-00000015.data
+02-11-2023 [22:30:07] Outputting spin pumping data to file atoms-spin-pumping-00000016.data
+02-11-2023 [22:32:07] Outputting spin pumping data to file atoms-spin-pumping-00000017.data
+02-11-2023 [22:34:07] Outputting spin pumping data to file atoms-spin-pumping-00000018.data
+02-11-2023 [22:36:08] Outputting spin pumping data to file atoms-spin-pumping-00000019.data
+02-11-2023 [22:38:08] Outputting spin pumping data to file atoms-spin-pumping-00000020.data
+02-11-2023 [22:40:09] Outputting spin pumping data to file atoms-spin-pumping-00000021.data
+02-11-2023 [22:42:09] Outputting spin pumping data to file atoms-spin-pumping-00000022.data
+02-11-2023 [22:44:09] Outputting spin pumping data to file atoms-spin-pumping-00000023.data
+02-11-2023 [22:46:10] Outputting spin pumping data to file atoms-spin-pumping-00000024.data
+02-11-2023 [22:48:10] Outputting spin pumping data to file atoms-spin-pumping-00000025.data
+02-11-2023 [22:50:11] Outputting spin pumping data to file atoms-spin-pumping-00000026.data
+02-11-2023 [22:52:11] Outputting spin pumping data to file atoms-spin-pumping-00000027.data
+02-11-2023 [22:54:11] Outputting spin pumping data to file atoms-spin-pumping-00000028.data
+02-11-2023 [22:56:12] Outputting spin pumping data to file atoms-spin-pumping-00000029.data
+02-11-2023 [22:58:12] Outputting spin pumping data to file atoms-spin-pumping-00000030.data
+02-11-2023 [23:00:13] Outputting spin pumping data to file atoms-spin-pumping-00000031.data
+02-11-2023 [23:02:13] Outputting spin pumping data to file atoms-spin-pumping-00000032.data
+02-11-2023 [23:04:14] Outputting spin pumping data to file atoms-spin-pumping-00000033.data
+02-11-2023 [23:06:14] Outputting spin pumping data to file atoms-spin-pumping-00000034.data
+02-11-2023 [23:08:14] Outputting spin pumping data to file atoms-spin-pumping-00000035.data
+02-11-2023 [23:10:15] Outputting spin pumping data to file atoms-spin-pumping-00000036.data
+02-11-2023 [23:12:15] Outputting spin pumping data to file atoms-spin-pumping-00000037.data
+02-11-2023 [23:14:16] Outputting spin pumping data to file atoms-spin-pumping-00000038.data
+02-11-2023 [23:16:16] Outputting spin pumping data to file atoms-spin-pumping-00000039.data
+02-11-2023 [23:18:16] Outputting spin pumping data to file atoms-spin-pumping-00000040.data
+02-11-2023 [23:20:17] Outputting spin pumping data to file atoms-spin-pumping-00000041.data
+02-11-2023 [23:22:17] Outputting spin pumping data to file atoms-spin-pumping-00000042.data
+02-11-2023 [23:24:18] Outputting spin pumping data to file atoms-spin-pumping-00000043.data
+02-11-2023 [23:26:18] Outputting spin pumping data to file atoms-spin-pumping-00000044.data
+02-11-2023 [23:28:18] Outputting spin pumping data to file atoms-spin-pumping-00000045.data
+02-11-2023 [23:30:19] Outputting spin pumping data to file atoms-spin-pumping-00000046.data
+02-11-2023 [23:32:19] Outputting spin pumping data to file atoms-spin-pumping-00000047.data
+02-11-2023 [23:34:20] Outputting spin pumping data to file atoms-spin-pumping-00000048.data
+02-11-2023 [23:36:20] Outputting spin pumping data to file atoms-spin-pumping-00000049.data
+02-11-2023 [23:38:20] Outputting spin pumping data to file atoms-spin-pumping-00000050.data
+02-11-2023 [23:40:21] Outputting spin pumping data to file atoms-spin-pumping-00000051.data
+02-11-2023 [23:42:21] Outputting spin pumping data to file atoms-spin-pumping-00000052.data
+02-11-2023 [23:44:22] Outputting spin pumping data to file atoms-spin-pumping-00000053.data
+02-11-2023 [23:46:22] Outputting spin pumping data to file atoms-spin-pumping-00000054.data
+02-11-2023 [23:48:23] Outputting spin pumping data to file atoms-spin-pumping-00000055.data
+02-11-2023 [23:50:23] Outputting spin pumping data to file atoms-spin-pumping-00000056.data
+02-11-2023 [23:52:23] Outputting spin pumping data to file atoms-spin-pumping-00000057.data
+02-11-2023 [23:54:24] Outputting spin pumping data to file atoms-spin-pumping-00000058.data
+02-11-2023 [23:56:24] Outputting spin pumping data to file atoms-spin-pumping-00000059.data
+02-11-2023 [23:57:37] Outputting configuration file 00000030 to disk 0.0300789 GB/s in 0.259433 s [ 0.263046 s]
+02-11-2023 [23:58:25] Outputting spin pumping data to file atoms-spin-pumping-00000060.data
+03-11-2023 [00:00:25] Outputting spin pumping data to file atoms-spin-pumping-00000061.data
+03-11-2023 [00:02:26] Outputting spin pumping data to file atoms-spin-pumping-00000062.data
+03-11-2023 [00:04:26] Outputting spin pumping data to file atoms-spin-pumping-00000063.data
+03-11-2023 [00:06:26] Outputting spin pumping data to file atoms-spin-pumping-00000064.data
+03-11-2023 [00:08:27] Outputting spin pumping data to file atoms-spin-pumping-00000065.data
+03-11-2023 [00:10:27] Outputting spin pumping data to file atoms-spin-pumping-00000066.data
+03-11-2023 [00:12:28] Outputting spin pumping data to file atoms-spin-pumping-00000067.data
+03-11-2023 [00:14:28] Outputting spin pumping data to file atoms-spin-pumping-00000068.data
+03-11-2023 [00:16:28] Outputting spin pumping data to file atoms-spin-pumping-00000069.data
+03-11-2023 [00:18:29] Outputting spin pumping data to file atoms-spin-pumping-00000070.data
+03-11-2023 [00:20:29] Outputting spin pumping data to file atoms-spin-pumping-00000071.data
+03-11-2023 [00:22:30] Outputting spin pumping data to file atoms-spin-pumping-00000072.data
+03-11-2023 [00:24:30] Outputting spin pumping data to file atoms-spin-pumping-00000073.data
+03-11-2023 [00:26:31] Outputting spin pumping data to file atoms-spin-pumping-00000074.data
+03-11-2023 [00:28:31] Outputting spin pumping data to file atoms-spin-pumping-00000075.data
+03-11-2023 [00:30:31] Outputting spin pumping data to file atoms-spin-pumping-00000076.data
+03-11-2023 [00:32:32] Outputting spin pumping data to file atoms-spin-pumping-00000077.data
+03-11-2023 [00:34:32] Outputting spin pumping data to file atoms-spin-pumping-00000078.data
+03-11-2023 [00:36:33] Outputting spin pumping data to file atoms-spin-pumping-00000079.data
+03-11-2023 [00:38:33] Outputting spin pumping data to file atoms-spin-pumping-00000080.data
+03-11-2023 [00:40:33] Outputting spin pumping data to file atoms-spin-pumping-00000081.data
+03-11-2023 [00:42:34] Outputting spin pumping data to file atoms-spin-pumping-00000082.data
+03-11-2023 [00:44:34] Outputting spin pumping data to file atoms-spin-pumping-00000083.data
+03-11-2023 [00:46:35] Outputting spin pumping data to file atoms-spin-pumping-00000084.data
+03-11-2023 [00:48:35] Outputting spin pumping data to file atoms-spin-pumping-00000085.data
+03-11-2023 [00:50:35] Outputting spin pumping data to file atoms-spin-pumping-00000086.data
+03-11-2023 [00:52:36] Outputting spin pumping data to file atoms-spin-pumping-00000087.data
+03-11-2023 [00:54:36] Outputting spin pumping data to file atoms-spin-pumping-00000088.data
+03-11-2023 [00:56:37] Outputting spin pumping data to file atoms-spin-pumping-00000089.data
+03-11-2023 [00:58:37] Outputting spin pumping data to file atoms-spin-pumping-00000090.data
+03-11-2023 [01:00:37] Outputting spin pumping data to file atoms-spin-pumping-00000091.data
+03-11-2023 [01:02:38] Outputting spin pumping data to file atoms-spin-pumping-00000092.data
+03-11-2023 [01:04:38] Outputting spin pumping data to file atoms-spin-pumping-00000093.data
+03-11-2023 [01:06:39] Outputting spin pumping data to file atoms-spin-pumping-00000094.data
+03-11-2023 [01:08:39] Outputting spin pumping data to file atoms-spin-pumping-00000095.data
+03-11-2023 [01:10:39] Outputting spin pumping data to file atoms-spin-pumping-00000096.data
+03-11-2023 [01:12:40] Outputting spin pumping data to file atoms-spin-pumping-00000097.data
+03-11-2023 [01:14:40] Outputting spin pumping data to file atoms-spin-pumping-00000098.data
+03-11-2023 [01:16:41] Outputting spin pumping data to file atoms-spin-pumping-00000099.data
+03-11-2023 [01:18:41] Simulation run time [s]: 12045.6
+03-11-2023 [01:18:42] Simulation ended gracefully.

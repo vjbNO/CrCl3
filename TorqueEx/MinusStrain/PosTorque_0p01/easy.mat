@@ -1,0 +1,17 @@
+material:num-materials=1
+
+material[1]:material-name=LeftEndHighAlpha
+material[1]:material-element=Cr
+material[1]:damping-constant=0.9#0.002
+material[1]:atomic-spin-moment=3.17 !muB
+material[1]:second-order-uniaxial-anisotropy-constant=-2.4e-22
+material[1]:uniaxial-anisotropy-direction=0,0,1
+material[1]:sts-second-order-uniaxial-anisotropy-constant=3.04e-22
+material[1]:sts-uniaxial-anisotropy-direction=1,0,0
+material[1]:initial-spin-direction=random#1,0,0
+material[1]:geometry-file = easy.geo
+material[1]:temperature = 5
+material[1]:exchange-matrix[1]=-4.71e-22
+material[1]:minimum-height=0
+material[1]:maximum-height=1
+
